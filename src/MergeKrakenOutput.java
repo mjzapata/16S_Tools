@@ -19,10 +19,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class MergeKrakenOutput {
-    public static final String QIITAID = "1189";
-    public static int NUM_SAMP = 436;//number of samples 436 instead of 439
+    public static final String QIITAID = "hiv";;
+    public static int NUM_SAMP = 58;//436;//number of samples 436 instead of 439
     //public static String DIR = "/nobackup/afodor_research/kwinglee/china/wgs/minikrakenResults/";
-    public static String DIR = "C:\\Users\\mjzapata\\Data\\16S_Studies\\" + QIITAID + "\\output\\";
+    //public static String DIR = "C:\\Users\\mjzapata\\Data\\16S_Studies\\" + QIITAID + "\\output\\";
+    public static String DIR = "C:\\ArffMerged\\mz16Sstudies\\" + QIITAID + "\\demux\\";
     //public static String HGDIR= "C:\\Users\\mjzapata\\Data\\16S_Studies\\77\\alignToHG38\\";
 
 

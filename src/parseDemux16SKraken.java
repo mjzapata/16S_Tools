@@ -6,11 +6,12 @@ import java.util.Set;
 
 public class parseDemux16SKraken {
 
-    public static final String QIITAID   = "1189";
-    public static final String QIITASAMPLEID = "seqs.labels";
-    public static final String SAMPLEDIR = "C:\\Users\\mjzapata\\Data\\16S_Studies\\"+QIITAID+"\\";
+    public static final String QIITAID   = "hiv";  //1189
+    public static final String QIITASAMPLEID = "hiv_translate.txt";   //seqs.label
+    //public static final String SAMPLEDIR = "C:\\Users\\mjzapata\\Data\\16S_Studies\\"+QIITAID+"\\";
+    public static final String SAMPLEDIR = "C:\\ArffMerged\\mz16Sstudies\\"+QIITAID+"\\";
     //public static final String METAFILENAME  = SAMPLEDIR + "77_20150818-225203.txt";
-    public static final String KRAKENDIROUTPUT = SAMPLEDIR + "output\\";
+    public static final String KRAKENDIROUTPUT = SAMPLEDIR + "demux\\";
     //public static final String SAMPLEDIR = "/Users/malcolm/Downloads/16S_Studies/77/";
     //public static final String METAFILENAME  = SAMPLEDIR + "77_20150818-225203.txt";
     //public static final String KRAKENDIROUTPUT = SAMPLEDIR + "output/";

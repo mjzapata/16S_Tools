@@ -28,7 +28,7 @@ public class KrakenScriptGenerator {
 
                     //run kraken
                     script.write(KRAKEN_DIR + "kraken --preload --db "
-                            + DB + " --fasta-input " +
+                            + DB + " --fastq-input " +
                             FASTA_DIR + fa + " --threads 2 > " + seqName + "\n");
                     //translate output
                     script.write(KRAKEN_DIR + "kraken-translate --db "
